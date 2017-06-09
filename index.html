@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 	<meta charset="UTF-8">
-	<!--EL ORDEN IMPORTA EN CSS // GRILLA , STYLE , MEDIA-->
+	<!--EL ORDEN IMPORTA EN CSS // GRILLA/COMMON, STYLE , MEDIA-->
 	<!--CSS common-->
-	<link rel="stylesheet" type="text/css" href="asset/css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<!--CSS style-->
-	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!--CSS media-->
-	<link rel="stylesheet" type="text/css" href="asset/css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<!--tipografia-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<title>Gatito</title>
 </head>
 <body>
-	
+	<div class="container">
+		<div class="imagen">
+		<style>img {display: block; margin: 0 auto;}</style>
+
+		<picture>
+			<source media="(min-width: 650px)" srcset="asset/img/gato1.png">
+			<source media="(min-width: 465px)" srcset="asset/img/gato2.png">
+			<img src="asset/img/gato3.png" alt="a cute kitten">
+		</picture>
+		</div>
+	</div>
 </body>
 </html>
