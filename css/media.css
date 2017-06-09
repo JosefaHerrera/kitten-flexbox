@@ -1,29 +1,15 @@
-
-
-
-/*Para mirar como se hace media*/
-@media (min-width: 650px){
-	body{
-		background-image: url(../asset/img/dia.jpg);
-		background-size: 100%;
-		background-repeat: no-repeat;
-
-	}
+@media (min-width: 1px) and (max-width: 400px) {
+   body {
+    background-image: url("../img/noche.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }
-@media (min-width: 465px) and (max-width: 700px){
-	body{
-		background-image: url(../asset/img/atardecer.png);
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
-	img{
-		display: none;
-	}
-}
-@media (min-width: 1px) and (max-width: 499px){
-	body{
-		background-image:url(../asset/img/noche.jpg);
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
+
+@media (min-width: 401px) and (max-width: 800px) {
+   body {
+    background-image: url("../img/atarceder.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }
